@@ -20,7 +20,7 @@ class Config:
         self.PLAYLIST_LIMIT = int(getenv("PLAYLIST_LIMIT", 20))
 
         # 🎵 Sessions
-        self.SESSION1 = getenv("SESSION", "BACcYO4AInYlvyCFpKzoEfEm8FjsDjUEgZR-Cn50cCiXyUNNcvgEienoH_sknXmwLDTBiB_s390XB7QTt5YtQcV_Uu7D5VR4UvEwswKxTocJvPVtiArxG5kIJW5U3HY4kYBrilw5n65easW2hXlA9EEGdcArlAHxjVqb33FXtQ-sab_updP-95lTIQrBlEQQCM1qPLacXxBD2KTeWQvu7wpet4t961-z8J5qbYK_3yk1cOaLJoaip2syh3Lld_-JXSMbyA8Xq-WBsJEf0TKEsVm1-xVyrdjRfk9K37-2WbCf2bW4TS1WIruXwGm8ZRf-Id6EsRAuVZylTLThbGg3K1VjNSNBcQAAAAF1LT2ZAA")
+        self.SESSION1 = getenv("SESSION", "BQCcYO4ACsa8Xjk_xhdwXj4XneoftgDyeDFcd1uwo3hynTa4HGniR-_bXCnpFnXn9B2tkGQIM9Xw_MNlVJERI8cZFmVHcnMCw2Pn8eVvoicyMOl5ew1hBc6kMo3PnYykiVH_NhhCojNWE-WOKq4MshRpmCmyi7zozoXiDCxOjf6HyGiKzaNTLJ6jHflFAc6N-PVzZUKmlVS3pw-PDvzXDkIRHuw04VN18awgRUl9dCqlHgDi2WmAe8wmMLQ8xrrny-7ah2DRjp0pMMUIHJTicw2s5BsYroWdqMlgwkfRWodJod9H97ujUX869JGYW7nM1HXgWsqArOZ4TS7-aP-uwyQI_DJtjwAAAAHo51o1AA")
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
