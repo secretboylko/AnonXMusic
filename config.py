@@ -20,7 +20,7 @@ class Config:
         self.PLAYLIST_LIMIT = int(getenv("PLAYLIST_LIMIT", 20))
 
         # 🎵 Sessions
-        self.SESSION1 = getenv("SESSION", "BACcYO4AogbHJ-zJdMjBXVcszr-z4xIVrsjCUWRh8rDCgX8Biec1EMNRgjTvGdSw9T9YaMIfOoULSz1OME073FvKM6stxxS_nreqWBnVIFTqrxwxbS0bso478bpe4J7YeURgp5YKknSAwaXifEvwFbeug-25omkqrZbtwPhZXktHKqAK7HbO1zEJIpQM0EV7A0LWjOpkNMihyyRyl40zrY91AK-D3CjMmWdUjJeYJFLRdb_WOGwoJRE9RzsPORyjcNCK1QqAzd_gKDDufaX2PNSmh3Ex5lc53IyjFYRCcclmZTrX3RFLBnvoa8IM-jjKdpiwJDqiASioMr-fKDm5sXQRt001ZAAAAAF1LT2ZAA")
+        self.SESSION1 = getenv("SESSION", "BACcYO4AInYlvyCFpKzoEfEm8FjsDjUEgZR-Cn50cCiXyUNNcvgEienoH_sknXmwLDTBiB_s390XB7QTt5YtQcV_Uu7D5VR4UvEwswKxTocJvPVtiArxG5kIJW5U3HY4kYBrilw5n65easW2hXlA9EEGdcArlAHxjVqb33FXtQ-sab_updP-95lTIQrBlEQQCM1qPLacXxBD2KTeWQvu7wpet4t961-z8J5qbYK_3yk1cOaLJoaip2syh3Lld_-JXSMbyA8Xq-WBsJEf0TKEsVm1-xVyrdjRfk9K37-2WbCf2bW4TS1WIruXwGm8ZRf-Id6EsRAuVZylTLThbGg3K1VjNSNBcQAAAAF1LT2ZAA")
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
@@ -38,7 +38,7 @@ class Config:
 
         # 🍪 Cookies (FIXED – any URL works)
         self.COOKIES_URL = [
-            url for url in getenv("COOKIES_URL", "https://pastebin.com/raw/5QXB8JyG").split(" ")
+            url for url in getenv("COOKIES_URL", "https://pastebin.com/raw/6HfsrYMp").split(" ")
             if url
         ]
 
