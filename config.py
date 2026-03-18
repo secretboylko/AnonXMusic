@@ -6,8 +6,8 @@ load_dotenv()
 class Config:
     def __init__(self):
         # 🔐 Correct getenv usage
-        self.API_ID = int(getenv("API_ID", "31656328"))
-        self.API_HASH = getenv("API_HASH", "a9e57623a4408a41418ca647b2f08950")
+        self.API_ID = int(getenv("API_ID", "22778197"))
+        self.API_HASH = getenv("API_HASH", "d3aabd77e2641bc5bb06d6ef3a6a51aa")
 
         self.BOT_TOKEN = getenv("BOT_TOKEN", "8596610814:AAHWlaVig5-Il-Wb7-mOu7NUtxVyhk280is")
         self.MONGO_URL = getenv("MONGO_URL", "mongodb+srv://aditya0:aditya0@cluster0.9m8897t.mongodb.net/?appName=Cluster0")
@@ -38,7 +38,7 @@ class Config:
 
         # 🍪 Cookies (FIXED – any URL works)
         self.COOKIES_URL = [
-            url for url in getenv("COOKIES_URL", "https://pastebin.com/raw/6HfsrYMp").split(" ")
+            url for url in getenv("COOKIES_URL", "https://pastebin.com/raw/bKE6fy82").split(" ")
             if url
         ]
 
