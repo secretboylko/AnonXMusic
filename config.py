@@ -38,7 +38,7 @@ class Config:
 
         # 🍪 Cookies (FIXED – any URL works)
         self.COOKIES_URL = [
-            url for url in getenv("COOKIES_URL", "https://pastebin.com/raw/bKE6fy82").split(" ")
+            url for url in getenv("COOKIES_URL", "").split(" ")
             if url
         ]
 
